@@ -3,9 +3,9 @@
 " GetLatestVimScripts: 2100 1 textobj-user
 " GetLatestVimScripts: 4506 1 :AutoInstall: textobj-latex"
 
-if exists('g:loaded_textobj_latex')
-  finish
-endif
+" if exists('g:loaded_textobj_latex')
+"   finish
+" endif
 
 call textobj#user#plugin('latex', {
 \   'environment': {
@@ -44,5 +44,5 @@ call textobj#user#plugin('latex', {
 \ })
 
 
-let g:loaded_textobj_latex = 1
+" let g:loaded_textobj_latex = 1
 
